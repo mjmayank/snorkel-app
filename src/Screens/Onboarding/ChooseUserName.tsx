@@ -106,7 +106,7 @@ const ChooseUserName: FunctionComponent<ChooseUserNameProps> = props => {
 
   React.useEffect(() => {
     sendEvent('page_view', {
-      screen: 'onboarding__username',
+      type: 'onboarding__username',
     })
   }, [])
 
